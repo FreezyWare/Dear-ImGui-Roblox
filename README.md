@@ -3,7 +3,7 @@ A simple and customizable UI library for Roblox, inspired by Dear ImGui.
 ## Getting Started
 To get started, you can load the library using the following code:
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FreezyWare/IMGUI/main/Main.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FreezyWare/Dear-ImGui-Roblox/main/Main.lua"))()
 ```
 ## Creating a UI Library Window
 You can create a UI window by calling the **Library.Create** function. Here's an example:
@@ -25,7 +25,7 @@ In this example, the window titled "My Window" cannot be resized, but it can be 
 Here is a full example demonstrating how to load the library, create a window, and use the flags:
 ```lua
 -- Load the library
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FreezyWare/IMGUI/main/Main.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FreezyWare/Dear-ImGui-Roblox/main/Main.lua"))()
 
 -- Create a window without flags
 local Window1 = Library.Create("Default Window", UDim2.new(0, 400, 0, 300))
